@@ -11,7 +11,7 @@ pipeline {
             steps {
                 // sh "npm i"
                 // sh "node index.js"
-                sh "run.sh"
+                echo 'Hello world'
             }
         }
     }
