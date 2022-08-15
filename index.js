@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
-app.get('/contact', function (req, res) {
-    res.send('Hello node');
+app.get('/about', function (req, res) {
+    res.send('Hello world');
 });
 
 app.listen(3000, function() {
