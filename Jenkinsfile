@@ -9,8 +9,9 @@ pipeline {
 
         stage('Run') {
             steps {
-                sh "npm i"
-                sh "node index.js"
+                // sh "npm i"
+                // sh "node index.js"
+                sh "Hello World"
             }
         }
     }
