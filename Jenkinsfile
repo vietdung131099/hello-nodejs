@@ -6,11 +6,11 @@ pipeline {
                 git 'https://github.com/vietdung131099/hello-nodejs.git'
             }
         }
-        
+
         stage('Run') {
             steps {
-                bash "npm i"
-                bash "node index.js"
+                sh "npm i"
+                sh "node index.js"
             }
         }
     }
